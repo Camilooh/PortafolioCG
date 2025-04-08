@@ -5,7 +5,7 @@ function About() {
     <div className="About">
         <div className="description">
           <p>
-            Tengo experiencia en el mundo del entretenimiento audiovisual y el diseño digital. Manejo herramientas de Adobe como Illustrator, Photoshop, After Effects y Premiere, así como software de diseño UX/UI como Figma.
+            Soy Camilo Gutiérrez, graduado de la carrera de Medios Interactivos en la Universidad San Francisco de Quito en el 2022. Desde entonces, he trabajado en el área de desarrollo web, videojuegos y diseño gráfico. Me apasiona la creación de experiencias interactivas y visuales que cautiven a los usuarios.
           </p>
           <p>
             También tengo conocimientos en la creación de contenido para redes sociales y plataformas digitales.

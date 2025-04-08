@@ -6,8 +6,11 @@ function Home() {
     <div className="Home">
       <div className="intro">
         <div className="background-image">
-          <h1>Camilo Gutiérrez</h1>
-          <h2>Diseñador de Medios Interactivos y Desarrollador</h2>
+          <img src={require('../assets/images/HomeNameIMG.jpg')} alt="Background" />
+          <div className="text-overlay">
+            <h1>Camilo Gutiérrez</h1>
+            <h2>Diseñador de Medios Interactivos y Desarrollador</h2>
+          </div>
         </div>
         <div className="description">
           <p>
