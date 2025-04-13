@@ -1,11 +1,15 @@
 import React from 'react';
+import '../styles/Footer.css';
 
 function Footer() {
   return (
-    <footer className="App-footer">
-      <p>&copy; {new Date().getFullYear()} Camilo Gutiérrez. All rights reserved.</p>
-      <a href="/about" className="Footer-link">About</a>
-      <a href="/portfolio" className="Footer-link">Portfolio</a>
+    <footer className="footer">
+      <ul className="footer-links">
+        <li><a href="/privacy">Política de Privacidad</a></li>
+        <li><a href="/terms">Términos y Condiciones</a></li>
+        <li><a href="/contact">Contacto</a></li>
+      </ul>
+      <p className="footer-text">© 2025 Camilo Gutiérrez. Todos los derechos reservados.</p>
     </footer>
   );
 }
