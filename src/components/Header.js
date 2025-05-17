@@ -4,12 +4,12 @@ import '../styles/Header.css';
 function Header() {
   return (
     <header className="header">
-      <h1 className="header-title">Mi portafolio</h1>
       <nav className="header-nav">
+        <a href="/"> <img src={require('../assets/images/LogoTexto.png')} alt="Logo" /></a>
         <ul>
-          <li><a href="/">Home</a></li>
-          <li><a href="/about">About</a></li>
+          <li><a href="/about">Sobre mi</a></li>
           <li><a href="/portfolio">Portfolio</a></li>
+          <li><a href="/contact">Contacto</a></li> 
         </ul>
       </nav>
     </header>
