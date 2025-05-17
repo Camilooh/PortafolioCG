@@ -5,6 +5,7 @@ import Footer from './components/Footer';
 import Home from './pages/Home';
 import About from './pages/About';
 import './styles/App.css';
+import '@fortawesome/fontawesome-free/css/all.min.css';
 
 function App() {
   return (
