@@ -13,7 +13,7 @@ function Home() {
           </div>
         </div>
         <div className="description-title">
-          <h1>Sobre mi trabajo</h1>
+          <h1>Mi trabajo</h1>
         </div>
         <div className="description-container">
           <div className="description-image">
