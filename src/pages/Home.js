@@ -1,6 +1,32 @@
 import React from 'react';
 import '../styles/Portfolio.css';
 
+
+import jsLogo from '../assets/skills/js.png';
+import reactLogo from '../assets/skills/react.png';
+import cssLogo from '../assets/skills/css.png';
+import htmlLogo from '../assets/skills/html.png';
+import unityLogo from '../assets/skills/unity.png';
+import unrealLogo from '../assets/skills/unreal.png';
+import csharpLogo from '../assets/skills/Csharp.png';
+import CplusplusLogo from '../assets/skills/C++.png';
+
+
+const skills = [
+  { name: 'JavaScript', logo: jsLogo },
+  { name: 'React', logo: reactLogo },
+  { name: 'CSS', logo: cssLogo },
+  { name: 'HTML', logo: htmlLogo },
+  { name: 'Unity', logo: unityLogo },
+  { name: 'Unreal Engine', logo: unrealLogo },
+  { name: 'C#', logo: csharpLogo },
+  { name: 'C ++', logo: CplusplusLogo },
+  
+];
+
+
+const infiniteSkills = [...skills, ...skills];
+
 function Home() {
   return (
     <div className="Home">
@@ -29,6 +55,17 @@ function Home() {
             <p>
               En el área de desarrollo, tengo conocimientos en tecnologías web (JavaScript, TypeScript, Angular, HTML, CSS). Poseo también conocimientos en el desarrollo de videojuegos, utilizando Unity y Unreal Engine con sus respectivos lenguajes de programación (C#, C++ y Blueprints).
             </p>
+          </div>
+        </div>
+        
+        <div className="carousel-container">
+          <div className="carousel-track">
+            {infiniteSkills.map((skill, idx) => (
+              <div className="skill-logo" key={skill.name + idx}>
+                <img src={skill.logo} alt={skill.name} title={skill.name} />
+                <span>{skill.name}</span>
+              </div>
+            ))}
           </div>
         </div>
       </div>
