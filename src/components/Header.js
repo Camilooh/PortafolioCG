@@ -1,15 +1,15 @@
-import React from 'react';
-import '../styles/Header.css'; 
+import { Link } from 'react-router-dom';
+import '../styles/Header.css';
 
 function Header() {
   return (
     <header className="header">
       <nav className="header-nav">
-        <a href="/"> <img src={require('../assets/images/LogoTexto.png')} alt="Logo" /></a>
+        <Link to="/"> <img src={require('../assets/images/LogoTexto.png')} alt="Logo" /></Link>
         <ul>
-          <li><a href="/about">Sobre mi</a></li>
-          <li><a href="/portfolio">Portfolio</a></li>
-          <li><a href="/contact">Contacto</a></li> 
+          <li><Link to="/about">Sobre mi</Link></li>
+          <li><Link to="/portfolio">Portfolio</Link></li>
+          <li><Link to="/contact">Contacto</Link></li>
         </ul>
       </nav>
     </header>
