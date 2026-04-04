@@ -14,7 +14,7 @@ const projects = [
   },
   {
     title: 'Consistec S.A',
-    image: require('../assets/images/Logo.png'),
+    image: require('../assets/images/Consistec.png'),
     description: 'Diseño de página web estática para una empresa dedicada a la construcción de Centros de Procesamiento de Datos y de Telecomunicaciones.',
     tags: ['HTML', 'JavaScript', 'CSS'],
     category: 'Web',
@@ -24,7 +24,7 @@ const projects = [
   // --- Apps ---
   {
     title: 'Neuronautas',
-    image: require('../assets/images/Logo.png'),
+    image: require('../assets/images/NeuronautasMain.png'),
     description: 'Aplicacion móvil para Android e iOS con actividades de enseñanza para niños. Aplicación de refuerzo educativo con minijuegos y videos.',
     tags: ['Unity', 'C#', 'Firebase'],
     category: 'Apps',
@@ -36,7 +36,7 @@ const projects = [
   // --- Videojuegos ---
   {
     title: 'Dyst02pia',
-    image: require('../assets/images/Logo.png'),
+    image: require('../assets/images/Dyst02pia.png'),
     description: 'Juego en primera persona con narrativa distópica ambientado en un mundo post-apocalíptico. Trabajo conjunto realizado en Unreal Engine junto a compañeros del diplomado en diseño de videojuegos. Mi rol fue el de programador de sonido y ambiente.',
     tags: ['Unreal', 'C++', 'Blueprints'],
     category: 'Videojuegos',
@@ -45,7 +45,7 @@ const projects = [
   },
   {
     title: 'Unreal-Shooter',
-    image: require('../assets/images/Logo.png'),
+    image: require('../assets/images/Unreal.jpg'),
     description: 'Concepto de shooter en primera persona desarrollado en Unreal Engine. Sin gráficos personalizados, el enfoque principal fue la programación de mecánicas de disparo, enemigos y sistema de salud usando C++ únicamente.',
     tags: ['Unreal', 'C++'],
     category: 'Videojuegos',
@@ -54,7 +54,7 @@ const projects = [
   },
   {
     title: 'FPShooter-Unreal-BP',
-    image: require('../assets/images/Logo.png'),
+    image: require('../assets/images/Unreal.jpg'),
     description: 'FPS shooter básico desarrollado en Unreal Engine usando Blueprints. Incluye mecánicas de disparo, recarga, salud y enemigos con IA simple.',
     tags: ['Unreal', 'Blueprints'],
     category: 'Videojuegos',
@@ -63,7 +63,7 @@ const projects = [
   },
   {
     title: 'Angry Pixels',
-    image: require('../assets/images/Logo.png'),
+    image: require('../assets/images/AngryPixels.png'),
     description: 'Juego 2D desarrollado en Unity inspirado en el clásico Angry Birds. Mecánica de lanzamiento de personajes con física realista.',
     tags: ['Unity', 'C#'],
     category: 'Videojuegos',
@@ -72,7 +72,7 @@ const projects = [
   },
   {
     title: 'City Disorder',
-    image: require('../assets/images/Logo.png'),
+    image: require('../assets/images/CityDisorder.jpeg'),
     description: 'Runner infinito con generación procedural de obstáculos, sistema de puntuación y dificultad escalable. Optimizado para móviles.',
     tags: ['Unity', 'C#'],
     category: 'Videojuegos',
@@ -81,7 +81,7 @@ const projects = [
   },
   {
     title: 'Slimy-Woods',
-    image: require('../assets/images/Logo.png'),
+    image: require('../assets/images/Unity.png'),
     description: 'Demo hecho en Unity de un plataformero 2D en el que se experimentan con diferentes mecánicas de juego.',
     tags: ['Unity', 'C#'],
     category: 'Videojuegos',
