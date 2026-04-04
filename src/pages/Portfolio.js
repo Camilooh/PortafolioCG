@@ -91,7 +91,7 @@ const projects = [
   // --- Diseño ---
   {
     title: 'Manual de Marca - Consistec S.A',
-    image: require('../assets/images/Logo.png'),
+    image: require('../assets/images/ConsistecManual.png'),
     description: 'Desarrollo de un Manual de Identidad Corporativa. Uso del stack de adobe, específicamente Illustrator y Photoshop para la creación de logotipo, paleta de colores, tipografía y aplicaciones de marca.',
     tags: ['Illustrator', 'Photoshop'],
     category: 'Diseño',
@@ -100,7 +100,7 @@ const projects = [
   },
   {
     title: 'Manual de Marca - Estudia Inteligente',
-    image: require('../assets/images/Logo.png'),
+    image: require('../assets/images/EstudiaInteligente.png'),
     description: 'Desarrollo de un Manual de Identidad Corporativa. Uso del stack de adobe, específicamente Illustrator y Photoshop para la creación de logotipo, paleta de colores, tipografía y aplicaciones de marca.',
     tags: ['Illustrator', 'Photoshop'],
     category: 'Diseño',
