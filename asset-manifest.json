@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/PortafolioCG/static/css/main.539636e1.css",
-    "main.js": "/PortafolioCG/static/js/main.40882658.js",
+    "main.css": "/PortafolioCG/static/css/main.3ace6118.css",
+    "main.js": "/PortafolioCG/static/js/main.a1b70df1.js",
     "static/media/Dyst02pia.png": "/PortafolioCG/static/media/Dyst02pia.79ad6fb2e25de980d3b5.png",
     "static/media/Consistec.png": "/PortafolioCG/static/media/Consistec.3b1d68e760bf2687db76.png",
     "static/media/HomeNameIMG.jpg": "/PortafolioCG/static/media/HomeNameIMG.e76618781e995de71c16.jpg",
@@ -32,7 +32,7 @@
     "index.html": "/PortafolioCG/index.html"
   },
   "entrypoints": [
-    "static/css/main.539636e1.css",
-    "static/js/main.40882658.js"
+    "static/css/main.3ace6118.css",
+    "static/js/main.a1b70df1.js"
   ]
 }
