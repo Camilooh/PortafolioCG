@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/PortafolioCG/static/css/main.3ace6118.css",
-    "main.js": "/PortafolioCG/static/js/main.a1b70df1.js",
+    "main.css": "/PortafolioCG/static/css/main.b7f1185f.css",
+    "main.js": "/PortafolioCG/static/js/main.cefaf714.js",
     "static/media/Dyst02pia.png": "/PortafolioCG/static/media/Dyst02pia.79ad6fb2e25de980d3b5.png",
     "static/media/Consistec.png": "/PortafolioCG/static/media/Consistec.3b1d68e760bf2687db76.png",
     "static/media/HomeNameIMG.jpg": "/PortafolioCG/static/media/HomeNameIMG.e76618781e995de71c16.jpg",
@@ -9,14 +9,10 @@
     "static/media/AngryPixels.png": "/PortafolioCG/static/media/AngryPixels.338f3456327a2f550f6c.png",
     "static/media/Logo.png": "/PortafolioCG/static/media/Logo.a370028ca9487910d80f.png",
     "static/media/fa-brands-400.ttf": "/PortafolioCG/static/media/fa-brands-400.1815e00441357e01619e.ttf",
-    "static/media/LogoTexto.png": "/PortafolioCG/static/media/LogoTexto.458b21b0cea1c41e5390.png",
     "static/media/NeuronautasMain.png": "/PortafolioCG/static/media/NeuronautasMain.d3d196f40a2a41d50f38.png",
     "static/media/fa-solid-900.woff2": "/PortafolioCG/static/media/fa-solid-900.2463b90d9a316e4e5294.woff2",
     "static/media/CityDisorder.jpeg": "/PortafolioCG/static/media/CityDisorder.eff24fd30669573eb331.jpeg",
     "static/media/fa-brands-400.woff2": "/PortafolioCG/static/media/fa-brands-400.c210719e60948b211a12.woff2",
-    "static/media/Csharp.png": "/PortafolioCG/static/media/Csharp.456d41f630085700b5d8.png",
-    "static/media/unreal.png": "/PortafolioCG/static/media/unreal.3bcbbacd8aaa7c979b78.png",
-    "static/media/C++.png": "/PortafolioCG/static/media/C++.2b2276395e116be80813.png",
     "static/media/myPhoto.jpg": "/PortafolioCG/static/media/myPhoto.331da6f1620429f01519.jpg",
     "static/media/fa-regular-400.ttf": "/PortafolioCG/static/media/fa-regular-400.914997e1bdfc990d0897.ttf",
     "static/media/ConsistecManual.png": "/PortafolioCG/static/media/ConsistecManual.e5c05a17e89fb0426d9a.png",
@@ -24,15 +20,13 @@
     "static/media/EstudiaInteligente.png": "/PortafolioCG/static/media/EstudiaInteligente.dc6a368c3dcb015375ac.png",
     "static/media/Unity.png": "/PortafolioCG/static/media/Unity.92af10b165fa5a022d1a.png",
     "static/media/fa-regular-400.woff2": "/PortafolioCG/static/media/fa-regular-400.89999bdf5d835c012025.woff2",
-    "static/media/react.png": "/PortafolioCG/static/media/react.3b5049ea7908e9da3ba0.png",
     "static/media/Unreal.jpg": "/PortafolioCG/static/media/Unreal.8a965cdcd845b388b08b.jpg",
-    "static/media/css.png": "/PortafolioCG/static/media/css.2ab79bf023a87655a988.png",
     "static/media/fa-v4compatibility.ttf": "/PortafolioCG/static/media/fa-v4compatibility.da94ef451f4969af06e6.ttf",
     "static/media/fa-v4compatibility.woff2": "/PortafolioCG/static/media/fa-v4compatibility.ea8f94e1d22e0d35ccd4.woff2",
     "index.html": "/PortafolioCG/index.html"
   },
   "entrypoints": [
-    "static/css/main.3ace6118.css",
-    "static/js/main.a1b70df1.js"
+    "static/css/main.b7f1185f.css",
+    "static/js/main.cefaf714.js"
   ]
 }
