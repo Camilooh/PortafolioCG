@@ -1,6 +1,9 @@
 // Fuente única de datos de los proyectos (usada por la lista y por la página de detalle).
 //
+// Campos opcionales del proyecto: imageFit ('cover' por defecto) e imageBg (fondo detrás de la imagen).
+//
 // Campos opcionales dentro de `detail` (la página solo muestra las secciones que tengan contenido):
+//   summary       -> Frase corta de mi aporte, se muestra en las tarjetas
 //   role          -> Mi rol en el proyecto (texto corto)
 //   team          -> Equipo / contexto (texto corto)
 //   period        -> Periodo o año (texto corto)
@@ -21,6 +24,8 @@ export const projects = [
     description: 'Portafolio personal desarrollado con React. Diseño moderno y responsivo que muestra mis proyectos, habilidades y formas de contacto.',
     tags: ['React', 'JavaScript', 'CSS'],
     category: 'Web',
+    imageFit: 'contain',
+    imageBg: '#EAF2EC',
     demo: 'https://camilooh.github.io/PortafolioCG',
     github: 'https://github.com/Camilooh/PortafolioCG',
     detail: {
@@ -57,14 +62,17 @@ export const projects = [
     slug: 'neuronautas',
     title: 'Neuronautas',
     image: require('../assets/images/NeuronautasMain.png'),
-    description: 'Aplicacion móvil para Android e iOS con actividades de enseñanza para niños. Aplicación de refuerzo educativo con minijuegos y videos.',
-    tags: ['Unity', 'C#', 'Firebase', 'Spine', 'Fastlane', 'React'],
+    description: 'Aplicación móvil para Android e iOS con actividades de enseñanza para niños. Aplicación de refuerzo educativo con minijuegos y videos.',
+    tags: ['Unity', 'C#', 'Firebase', 'React'],
     category: 'Apps',
+    imageFit: 'contain',
+    imageBg: '#EEF3DD',
     demo: null,
     appStore: 'https://apps.apple.com/ec/app/neuronautas/id6753188244',
     playStore: 'https://play.google.com/store/apps/details?id=com.DefaultCompany.Neuri&pcampaignid=web_share',
     github: null,
     detail: {
+      summary: 'Arquitectura, minijuegos, backend y publicación',
       contributions: [
         {
           title: 'Arquitectura de la app',
@@ -126,6 +134,7 @@ export const projects = [
     demo: null,
     github: 'https://github.com/Camilooh/Unreal-Shooter',
     detail: {
+      summary: 'Disparo, enemigos y salud en C++',
       contributions: [
         'Programación de las mecánicas de disparo en C++.',
         'Programación de los enemigos.',
@@ -143,6 +152,7 @@ export const projects = [
     demo: null,
     github: 'https://github.com/Camilooh/FPShooter-Unreal-BP',
     detail: {
+      summary: 'Disparo, recarga, salud e IA',
       contributions: [
         'Mecánicas de disparo y recarga con Blueprints.',
         'Sistema de salud.',
@@ -160,6 +170,7 @@ export const projects = [
     demo: null,
     github: 'https://github.com/Camilooh/Angry-Pixels',
     detail: {
+      summary: 'Lanzamiento con física realista',
       contributions: [
         'Mecánica de lanzamiento de personajes con física realista.',
       ],
@@ -175,6 +186,7 @@ export const projects = [
     demo: null,
     github: 'https://github.com/Camilooh/City-Disorder',
     detail: {
+      summary: 'Generación procedural y optimización móvil',
       contributions: [
         'Generación procedural de obstáculos.',
         'Sistema de puntuación y dificultad escalable.',
@@ -191,7 +203,10 @@ export const projects = [
     category: 'Videojuegos',
     demo: null,
     github: 'https://github.com/Camilooh/Slimy-Woods',
-    detail: {},
+    imageBg: '#000000',
+    detail: {
+      summary: 'Prototipo de mecánicas 2D',
+    },
   },
   // --- Diseño ---
   {
@@ -204,6 +219,7 @@ export const projects = [
     demo: 'https://drive.google.com/file/d/1TrFZOYKf4IANdOeycwPoXz3XsAw8ItEB/view?usp=sharing',
     github: null,
     detail: {
+      summary: 'Logotipo, paleta, tipografía y aplicaciones',
       contributions: [
         'Creación del logotipo.',
         'Definición de la paleta de colores y la tipografía.',
@@ -221,6 +237,7 @@ export const projects = [
     demo: 'https://drive.google.com/file/d/1KORkPI7SJAzsfrVQ6XfQbHUkgqqDdAPY/view?usp=sharing',
     github: null,
     detail: {
+      summary: 'Logotipo, paleta, tipografía y aplicaciones',
       contributions: [
         'Creación del logotipo.',
         'Definición de la paleta de colores y la tipografía.',
@@ -229,27 +246,6 @@ export const projects = [
     },
   },
 ];
-
-export const TAG_COLORS = {
-  React:       { bg: '#e8f4fd', color: '#0a6ebd' },
-  JavaScript:  { bg: '#fef9e7', color: '#b8860b' },
-  TypeScript:  { bg: '#eaf3ff', color: '#3178c6' },
-  CSS:         { bg: '#f3eaff', color: '#7c3aed' },
-  HTML:        { bg: '#fff0ea', color: '#e34c26' },
-  Angular:     { bg: '#fdeaea', color: '#dd0031' },
-  Unity:       { bg: '#f0f0f0', color: '#222' },
-  'C#':        { bg: '#eaf3e8', color: '#1d6c1d' },
-  'C++':       { bg: '#f3eaff', color: '#004482' },
-  Unreal:      { bg: '#fdeaea', color: '#0e1128' },
-  Illustrator: { bg: '#fff4e5', color: '#ff7c00' },
-  Photoshop:   { bg: '#e8f0fe', color: '#001e36' },
-  Firebase:    { bg: '#fff8e1', color: '#f57c00' },
-  Blueprints:  { bg: '#e8eaff', color: '#2d3aad' },
-  Spine:       { bg: '#fdeef4', color: '#c2185b' },
-  Fastlane:    { bg: '#e6f7f4', color: '#00897b' },
-};
-
-export const DEFAULT_TAG_COLOR = { bg: '#f0f0f0', color: '#555' };
 
 export const CATEGORIES = ['Todos', 'Web', 'Apps', 'Videojuegos', 'Diseño'];
 
