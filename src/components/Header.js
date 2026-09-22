@@ -1,4 +1,4 @@
-import { Link, NavLink, useLocation } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import '../styles/Header.css';
 
 const links = [
@@ -8,14 +8,11 @@ const links = [
 ];
 
 function Header() {
-  // En el inicio el header flota sobre la imagen del hero
-  const overlay = useLocation().pathname === '/';
-
   return (
-    <header className={`header${overlay ? ' header--overlay' : ''}`}>
+    <header className="header">
       <div className="header__inner container">
         <Link to="/" className="header__brand" aria-label="Camilo Gutiérrez, ir al inicio">
-          <span className="header__mark" aria-hidden="true">CG</span>
+          <span className="header__mark" aria-hidden="true"></span>
           <span className="header__name">Camilo Gutiérrez</span>
         </Link>
         <nav className="header__nav" aria-label="Principal">

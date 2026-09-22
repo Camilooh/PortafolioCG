@@ -1,25 +1,20 @@
 .portfolio-hero {
-  padding-block: clamp(3rem, 6vw, 4.5rem) 2.5rem;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: flex-end;
-  justify-content: space-between;
-  gap: 2rem 3rem;
+  padding-block: clamp(3rem, 6vw, 4.5rem) 1.75rem;
 }
 
 .portfolio-hero__title {
-  margin: 1.25rem 0 0;
+  margin: 0 0 0.875rem;
   font-family: var(--font-display);
-  font-size: clamp(3rem, 8.3vw, 7.5rem);
-  font-weight: 800;
-  line-height: 0.95;
-  letter-spacing: -0.05em;
+  font-size: clamp(2.5rem, 5.5vw, 5rem);
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: -0.015em;
 }
 
 .portfolio-hero__lead {
-  margin: 0 0 0.75rem;
-  max-width: 27rem;
-  font-size: 1.1875rem;
+  margin: 0;
+  max-width: 32rem;
+  font-size: 1.125rem;
   line-height: 1.55;
   color: var(--muted);
 }
@@ -28,28 +23,25 @@
 .portfolio-filters {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.75rem;
-  padding-bottom: 3.5rem;
+  gap: 0.625rem;
+  padding-bottom: 2.5rem;
 }
 
 .portfolio-filter {
-  padding: 0.75rem 1.375rem;
-  border: 1.5px solid var(--line-strong);
-  border-radius: 10px;
+  padding: 0.625rem 1.125rem;
+  border: 1px solid var(--line-strong);
+  border-radius: 8px;
   background: transparent;
-  color: #c4d3c9;
+  color: var(--muted);
   font-family: var(--font-mono);
-  font-size: 0.875rem;
-  font-weight: 500;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
+  font-size: 0.8125rem;
   cursor: pointer;
   transition: border-color 0.2s ease, color 0.2s ease, background 0.2s ease;
 }
 
 .portfolio-filter:hover {
-  border-color: var(--accent-bright);
-  color: var(--accent-bright);
+  border-color: var(--accent);
+  color: var(--accent);
 }
 
 .portfolio-filter--active,
@@ -63,29 +55,11 @@
 /* Listado */
 .portfolio-list {
   padding-bottom: clamp(4rem, 7vw, 6rem);
-}
-
-.portfolio-featured {
-  display: grid;
-  grid-template-columns: minmax(0, 7fr) minmax(0, 5fr);
-  gap: 1.75rem;
-  margin-bottom: 1.75rem;
-}
-
-.portfolio-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(min(100%, 340px), 1fr));
-  gap: 1.75rem;
+  border-top: 1px solid var(--line);
 }
 
 .portfolio-empty {
   margin: 3rem 0 0;
   text-align: center;
   color: var(--subtle);
-}
-
-@media (max-width: 900px) {
-  .portfolio-featured {
-    grid-template-columns: 1fr;
-  }
 }

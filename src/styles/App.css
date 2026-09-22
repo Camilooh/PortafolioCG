@@ -1,27 +1,27 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Manrope:wght@400;500;600;700&family=Sora:wght@400;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;600;700&family=Public+Sans:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap');
 
 /* ── Tokens ───────────────────────────────────────────────── */
 :root {
-  --bg: #0c1712;
-  --bg-deep: #08110d;
-  --surface: #13241b;
-  --surface-alt: #101f17;
-  --line: #244034;
-  --line-strong: #2e4c3d;
+  --bg: #0b0d0c;
+  --bg-deep: #070908;
+  --surface: #121614;
+  --surface-alt: #0f1211;
+  --line: rgba(236, 239, 236, 0.1);
+  --line-strong: rgba(236, 239, 236, 0.2);
 
-  --ink: #e8f3eb;
-  --muted: #a9bbb0;
-  --subtle: #93a89a;
-  --dim: #7f9587;
+  --ink: #ecefec;
+  --muted: #a6afa9;
+  --subtle: #8b958f;
+  --dim: #5b6660;
 
-  --accent: #34a853;
-  --accent-bright: #4ade72;
-  --accent-soft: #86efa5;
-  --on-accent: #06210f;
+  --accent: #10b981;
+  --accent-bright: #34d399;
+  --accent-soft: #6ee7b7;
+  --on-accent: #062a1d;
 
-  --font-display: 'Sora', system-ui, sans-serif;
-  --font-body: 'Manrope', system-ui, sans-serif;
-  --font-mono: 'IBM Plex Mono', ui-monospace, Menlo, Consolas, monospace;
+  --font-display: 'Red Hat Display', system-ui, sans-serif;
+  --font-body: 'Public Sans', system-ui, sans-serif;
+  --font-mono: 'Space Mono', ui-monospace, Menlo, Consolas, monospace;
 
   --gutter: clamp(1.25rem, 4.5vw, 4rem);
   color-scheme: dark;
@@ -106,10 +106,10 @@ a {
   gap: 0.625rem;
   padding: 1rem 1.75rem;
   border: 1.5px solid transparent;
-  border-radius: 12px;
+  border-radius: 10px;
   font-family: inherit;
   font-size: 1.0625rem;
-  font-weight: 700;
+  font-weight: 600;
   text-decoration: none;
   cursor: pointer;
   transition: background 0.2s ease, border-color 0.2s ease, color 0.2s ease;

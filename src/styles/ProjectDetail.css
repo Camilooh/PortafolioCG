@@ -20,10 +20,10 @@
 .pd-hero__title {
   margin: 1rem 0 1.5rem;
   font-family: var(--font-display);
-  font-size: clamp(2.5rem, 6.4vw, 5.75rem);
-  font-weight: 800;
-  line-height: 0.98;
-  letter-spacing: -0.045em;
+  font-size: clamp(2.25rem, 5vw, 4.5rem);
+  font-weight: 700;
+  line-height: 1.02;
+  letter-spacing: -0.015em;
   overflow-wrap: anywhere;
   text-wrap: balance;
 }
@@ -63,7 +63,7 @@
 .pd-hero__media {
   aspect-ratio: 4 / 3;
   border: 1px solid var(--line);
-  border-radius: 24px;
+  border-radius: 14px;
   background: var(--surface);
   overflow: hidden;
 }
@@ -118,10 +118,10 @@
 .pd-section h2 {
   margin: 0;
   font-family: var(--font-display);
-  font-size: clamp(1.75rem, 3.4vw, 2.75rem);
+  font-size: clamp(1.625rem, 2.8vw, 2.25rem);
   font-weight: 700;
-  line-height: 1.05;
-  letter-spacing: -0.04em;
+  line-height: 1.1;
+  letter-spacing: -0.015em;
 }
 
 .pd-prose p {
@@ -185,7 +185,7 @@
   display: block;
   width: 100%;
   border: 1px solid var(--line);
-  border-radius: 16px;
+  border-radius: 12px;
 }
 
 .pd-gallery figcaption {

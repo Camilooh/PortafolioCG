@@ -17,18 +17,18 @@
   aspect-ratio: 1;
   object-fit: cover;
   border: 1px solid var(--line-strong);
-  border-radius: 28px;
-  outline: 2px solid var(--accent);
+  border-radius: 16px;
+  outline: 1.5px solid var(--accent);
   outline-offset: 6px;
 }
 
 .about-hero__name {
   margin: 1rem 0;
   font-family: var(--font-display);
-  font-size: clamp(2.25rem, 7vw, 6rem);
-  font-weight: 800;
-  line-height: 0.95;
-  letter-spacing: -0.045em;
+  font-size: clamp(2.25rem, 5.2vw, 4.5rem);
+  font-weight: 700;
+  line-height: 1.02;
+  letter-spacing: -0.015em;
 }
 
 .about-hero__title {
@@ -128,7 +128,7 @@
   padding: 1.5rem;
   background: var(--surface);
   border: 1px solid var(--line);
-  border-radius: 18px;
+  border-radius: 12px;
 }
 
 .about-interest__icon {
@@ -169,7 +169,7 @@
   width: 320px;
   margin-top: 1.5rem;
   border: 1px solid var(--line);
-  border-radius: 16px;
+  border-radius: 12px;
 }
 
 /* CTA */
